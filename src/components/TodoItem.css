@@ -1,0 +1,28 @@
+.todo-item {
+    background-color: #eee;
+    padding: 5px 10px;
+    margin: 10px auto;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.todo-item.not-started {
+    border-left: 10px solid#f6685e;
+}
+
+.todo-item.in-progress {
+    border-left: 10px solid#ffef62;
+}
+
+.todo-item.done {
+    border-left: 10px solid#6fbf73;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item-deadline {
+    font-style: italic;
+}

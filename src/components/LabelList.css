@@ -1,0 +1,29 @@
+.label-list {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.label-item {
+    background-color: #eee;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    flex: 1;
+}
+
+.label-item.not-started {
+    border-left: 10px solid#f6685e;
+}
+
+.label-item.in-progress {
+    border-left: 10px solid#ffef62;
+}
+
+.label-item.done {
+    border-left: 10px solid#6fbf73;
+}
+
+.label-item:nth-child(2) {
+    margin: 0 20px;
+}
